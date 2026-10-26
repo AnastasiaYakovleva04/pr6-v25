@@ -39,7 +39,7 @@ namespace yakovleva_pr6_v25.Controllers
         public async Task<ActionResult<Equipment>> CreateEqiupment([FromBody] Equipment equipment)
         {
             if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+                return BadRequest("Некорректно заполнены поля");
             
             if (equipment.Price <= 0)
                 return BadRequest("Цена не может быть меньше 0");
@@ -47,8 +47,8 @@ namespace yakovleva_pr6_v25.Controllers
             if (string.IsNullOrWhiteSpace(equipment.Name) || string.IsNullOrWhiteSpace(equipment.InventoryNumber))
                 return BadRequest("Имя и инвентарный номер не могут быть пустыми");
 
-            if (equipment.PurchaseDate > DateOnly.FromDateTime(DateTime.Now))
-                return BadRequest("Дата приобретения не может быть в будущем.");
+            if (equipment.PurchaseDate > DateOnly.FromDateTime(DateTime.Now) || equipment.PurchaseDate.Year < 1990)
+                return BadRequest("Дата приобретения не может быть в будущем или раньше 1990 года");
 
             var existingItem = await _context.Equipment.FirstOrDefaultAsync(e => e.InventoryNumber == equipment.InventoryNumber);
             if (existingItem != null)

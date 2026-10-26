@@ -169,3 +169,4 @@ C:\Users\Админ\Documents\программки\c#\yakovleva-pr6-v25\yakovlev
 C:\Users\Админ\Documents\программки\c#\yakovleva-pr6-v25\yakovleva-pr6-v25\obj\Debug\net8.0\yakovleva-pr6-v25.pdb
 C:\Users\Админ\Documents\программки\c#\yakovleva-pr6-v25\yakovleva-pr6-v25\obj\Debug\net8.0\yakovleva-pr6-v25.genruntimeconfig.cache
 C:\Users\Админ\Documents\программки\c#\yakovleva-pr6-v25\yakovleva-pr6-v25\obj\Debug\net8.0\ref\yakovleva-pr6-v25.dll
+C:\Users\Админ\Documents\программки\c#\yakovleva-pr6-v25\yakovleva-pr6-v25\obj\Debug\net8.0\yakovleva-pr6-v25.sourcelink.json

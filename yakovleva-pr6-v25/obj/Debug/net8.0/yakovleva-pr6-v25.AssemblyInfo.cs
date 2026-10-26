@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yakovleva-pr6-v25")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b64aebb8d9ad6ac4c17d49c686b18d0f022ee6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("yakovleva-pr6-v25")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yakovleva-pr6-v25")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
